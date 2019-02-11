@@ -11,4 +11,10 @@ class PagesController < ApplicationController
 
   def about
   end
+
+  def par
+
+    render html: params[:id]
+
+  end
 end

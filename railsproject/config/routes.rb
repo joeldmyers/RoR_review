@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :photos
   get 'pages/home', to: 'pages#home'
 
   get 'article/:id', to: 'pages#par'

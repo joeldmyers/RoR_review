@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   get 'pages/home', to: 'pages#home'
 
   get 'article/:id', to: 'pages#par'
+
+  get 'gallery', to: 'pages#gallery'
   get 'pages/contact'
   get 'pages/about'
 

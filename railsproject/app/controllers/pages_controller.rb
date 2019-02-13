@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
   def home
-    title = "This is my root page"
+    title = "Home"
 
     render html: title
 
@@ -10,6 +10,10 @@ class PagesController < ApplicationController
   end
 
   def about
+  end
+
+  def gallery
+    render template: "pages/gallery"
   end
 
   def par

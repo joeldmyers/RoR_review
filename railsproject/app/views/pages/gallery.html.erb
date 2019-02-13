@@ -1,1 +1,12 @@
 <h1>Gallery Page</h1>
+
+<ul>
+<% # inserting ruby %>
+<%
+  users = ['tom', 'joel', 'james']
+  users.each do |user| puts
+%>
+  <li><%= user %></li>
+
+<% end %>
+</ul>

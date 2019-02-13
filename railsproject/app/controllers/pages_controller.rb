@@ -13,6 +13,9 @@ class PagesController < ApplicationController
   end
 
   def gallery
+
+    @users = ['joe', 'dave', 'john']
+
     render template: "pages/gallery"
   end
 
